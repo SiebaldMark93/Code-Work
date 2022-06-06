@@ -1,11 +1,32 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
-    margin-top: 0;
+    font-size: 7.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
 }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E
+}
+
+.radius {
+    border-radius: 100%;
+}
+
 
 .top-container {
     background-color: cornflowerblue;
@@ -14,17 +35,19 @@ h1 {
 }
 
 .middle-container {
-    background-color: darkblue;
-    width: 200px;
-    height: 200px;
+
 }
 
 .bottom-container {
-    background-color: blueviolet;
-    width: 200px;
-    height: 200px;
+
 }
 
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
 .bottom-cloud {
     position: absolute;
     left: 300px;
@@ -36,3 +59,18 @@ h1 {
     right: 300px;
     top: 50px;
 }
+
+.programming {
+    float: left;
+    margin-right: 30px;
+}
+
+.icon {
+    float: right;
+    margin-left: 30px;
+}
+
+.footer-link {
+    color: #11999E
+}
+
