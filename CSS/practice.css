@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(45deg,navy, darkred);
+}
+
+.navbar-expand-lg {
+    color: #C1B19A;
+}
+
+
+.nav-links {
+    list-style: none;
+    display:flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 3px;
+    width: 0px;
+    border-radius: 2px;
+    background-color: darkred;
+    transition: 0.4s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+ h1 {
+    font-size: 5rem;
+    background: linear-gradient(to right,#fff 20%, #65C7F7 40%, #0052D4 60%, #fff 80%);
+    background-size: 200%;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    to {
+        background-position: 200%;
+    }
+}

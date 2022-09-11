@@ -1,7 +1,12 @@
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+}
+
+p {
+    line-height: 2;
 }
 
 h1 {
@@ -16,11 +21,20 @@ h2 {
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+
 }
 
 .radius {
@@ -35,7 +49,13 @@ h3 {
 }
 
 .middle-container {
+    margin: 100px 0;
 
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
 }
 
 .bottom-container {
@@ -46,12 +66,16 @@ h3 {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 .bottom-cloud {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
 .top-cloud {
@@ -73,4 +97,6 @@ h3 {
 .footer-link {
     color: #11999E
 }
+
+
 
