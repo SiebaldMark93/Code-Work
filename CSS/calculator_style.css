@@ -48,7 +48,7 @@ body {
 }
 
 .output .previous-operand {
-    color: rgba(225, 225, 225, .80);
+    color: rgba(225, 225, 225, .75);
     font-size: 2rem;
 }
 
