@@ -126,7 +126,7 @@ body {
     font-weight: 100;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 730px) {
 
     .container {
         padding: 20px;
@@ -134,7 +134,7 @@ body {
 
     .future-forecast {
         justify-content: start;
-        align-items: none;
+        align-items: none ;
         overflow-y: scroll;
     }
 
@@ -171,4 +171,12 @@ body {
         font-size: 14px;
     }
 
+}
+
+@media only screen and (max-width: 1000px) {
+    .future-forecast {
+        justify-content: start;
+        align-items: none;
+        overflow-x: scroll;
+    }
 }
